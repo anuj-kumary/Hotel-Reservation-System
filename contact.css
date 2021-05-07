@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  overflow-x :hidden;
+  background:#000000;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  padding-top: 70px;
+
+}
+
+html {overflow-x:hidden;}
+
+
+
+
+
+
+.btn-red {
+    color: #fff;
+    background-color: #f70303;
+}
+
+.btn-red:hover{
+    background-color:#bb0000;
+    color: #000000;
+}
+
+.uppercase {text-transform:uppercase;}
+
+
+/******************* NAVIGATION*/
+.navbar {
+
+    background: #000000;
+    display: block;
+
+    position:fixed;
+   
+    width:100%;
+    top:0;
+    z-index:2;
+box-sizing: border-box;
+}
+
+img {
+    width: 70px;
+    border: 2px solid;
+    border-radius: 50px;
+}
+.nav-item-list{
+ 
+    flex-direction: row-reverse;
+    text-transform: uppercase;
+}
+
+.heading {
+
+    color: #f70303;
+    padding-top: 8px;
+    padding-left: 10px;
+    font-size: 2rem;
+    font-family: "anton", sans-serif;
+
+}
+
+.nav-item a {
+    color: #fff !important;
+ 
+
+}
+
+.nav-item a:hover {
+    color: #f70b0bd5 !important;
+
+}
+
+/******************* NAVIGATION END*/
+
+
+
+
+/******************* FOOTER*/
+
+.social-container {
+  
+    background: #000000;
+    padding: 0px;
+    border-top:double;
+    border-color:#fff;
+}
+.footer-paragraph {
+    font-family: "Montserrat", sans-serif;
+}
+.address {
+    max-width: 100%;
+    line-height: 3px;
+    padding: 0;
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size:0.5rem;
+  
+}
+
+.address a {
+    color: #fff !important;  
+}
+.address a:hover{
+    color:#f70303 !important;
+}
+.social {
+    
+    padding:0;
+    padding-top: 18px;
+    
+}
+
+.social li {
+    display: inline;
+}
+
+
+.social i {
+    font-size: 200%;
+    padding: 5%;
+    color: #f70303;
+  
+}
+
+.contact {
+    max-width: 100%;
+    line-height: 3px;
+    padding: 0;
+    padding-top: 20px;
+    font-family: "Monsterrat", sans-serif;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    font-size: 0.5rem;
+}
+
+.footer-paragraph {
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer-heading {
+    color: #f70303;
+}
+
+.contact a {
+    color: #fff !important;  
+}
+.contact a:hover{
+    color:#f70303 !important;
+}
+/******************* FOOTER END*/
+
+
+
+
+
+
+
+
+/******************* CONTACT PAGE*/
+
+.contact-container {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    max-height: 100%;
+    height: 80vh;
+    z-index: 1;
+
+}
+
+.contact-form {
+    padding: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+
+}
+
+.form-btn {
+    margin-top: 20px;
+    padding: 10px;
+    }
+
+
+/******************* CONTACT PAGE END*/

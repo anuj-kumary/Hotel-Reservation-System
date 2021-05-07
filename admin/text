@@ -1,0 +1,39 @@
+ 	<!-- 
+	<?php
+
+  include_once('header.php');
+  ?> -->
+
+
+
+
+
+ 	// $cardname = $row['cardname'];
+    	// $cardnumber = $row['cardnumber'];
+    	// $expmonth = $row['expmonth'];
+    	// $expyear = $row['expyear'];
+    	// $cvv = $row['cvv'];
+    	// $date = $row['date'];
+
+
+
+
+
+
+    	// <th scope="col">Cardname</th>
+      // <th scope="col">Cardnumber</th>
+      // <th scope="col">Expmonth</th>
+      // <th scope="col">Expyear</th>
+      // <th scope="col">CVV</th>
+      // <th scope="col">Date</th>
+
+
+
+
+
+      // <td>'. $cardname .'</td>
+      // <td>'. $cardnumber .'</td>
+      // <td>'. $expmonth .'</td>
+      // <td>'. $expyear .'</td>
+      // <td>'. $cvv .'</td>
+      // <td>'. $date .'</td>

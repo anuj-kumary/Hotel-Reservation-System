@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images</title>
+   
+</head>
+
+<style>
+*{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --navbar-height: 59px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#logo{
+    margin: 10px 34px;
+   
+}
+#logo img{
+    height: 59px;
+    margin: 3px 6px;
+    border-radius: 40px;
+}
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.bg {
+  background-color: aquamarine;
+  transition:transform 0.25s ease;
+  width: 32%;
+  height: 200px;
+}
+
+.bg:hover {
+  -webkit-transform:scale(1.0);
+  transform:scale(1.5);
+}
+</style>
+<body>
+  <nav id="navbar">
+    <div id="logo">
+        <img src="img/logo.jpeg" alt="Logo">
+
+    </div>
+    <ul>
+        <li class="item"><a href="index.php">Home</a> </li>
+        <li class="item"><a href="img.html">Gallery</a> </li>
+        <li class="item"><a href="contact.php">Contact Us</a> </li>
+        <li class="item"><a href="index.html">Our Brand</a> </li>
+
+    </ul>
+</nav>
+
+
+            <div>
+                <h1><font color="black">Tatva</font></h1>
+            </div>
+            
+    
+    <img class="bg" src="img/r4.jpeg" alt="background">
+    <img class="bg" src="img/img5.jpg" alt="background">
+    <img class="bg" src="img/img4.jpg" alt="background">
+    <img class="bg" src="img/img3.jpg" alt="background">
+    <img class="bg" src="img/img2.jpg" alt="background">
+    <img class="bg" src="img/img1.jpg" alt="background">
+    <img class="bg" src="img/r.jpeg" alt="background">
+    <img class="bg" src="img/r2.jpeg" alt="background">
+    <img class="bg" src="img/r3.jpeg" alt="background">
+    
+
+
+   
+</body>
+</html>
